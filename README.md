@@ -1,14 +1,31 @@
-# TP01 - Gestión de Proyectos Educativos
-## Grupo 12 - Programación Visual 2026
+# 🚩 TP01 - Gestión de Proyectos Educativos
+**Asignatura:** Programación Visual  
+**Institución:** Facultad de Ingeniería - UNJu  
+**Carrera:** Analista Programador Universitario  
+**Año:** 2026  
 
-### Integrantes:
-* **Hernán Jairo Gerardo Almazan** (@HernanJairo) - Alumno
-* 
-* 
-* 
-* 
+---
 
-### Construcción de las páginas HTML:
+## 👥 Integrantes del Grupo 12
+* **Hernan Jairo Gerardo Almazan** - [@HernanJairo](https://github.com/HernanJairo)
+* **Mauricio Rodrigo Salas** - [@mauriciosalas66-art](https://github.com/mauriisalas66-art)
+* **Ignacio Leonel Cardozo** - [@nacho745](https://github.com/nacho-bootcamp)
+* **Camila Noemi Mansilla** - [@Noemansilla](https://github.com/Noemansilla)
+* **Luis Alessandro Nieves** - [@nievesales](https://github.com/nievesaless)
 
-**index.html (Dashboard Principal) - Por Hernán Jairo Almazan:**
-Organicé la portada usando un `<header>` para el menú y un `<main>` para el contenido fuerte. Metí las estadísticas y novedades en `<section>` y `<article>` para que cada dato esté bien identificado.
+---
+
+## 📝 Descripción del Proyecto
+Este repositorio contiene la primera etapa del Trabajo Práctico N° 1, enfocada en la maquetación estructural de una plataforma educativa utilizando **HTML**.
+
+### Detalles de la Construcción:
+* **Estructura Semántica:** Se implementaron etiquetas de bloque (`<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`)
+* **Navegación Interconectada:** Las páginas `index.html`, `proyectos.html`, `detalle.html` y `perfil.html` están vinculadas entre sí mediante etiquetas de ancla (`<a>`), permitiendo un flujo de navegación completo.
+
+---
+
+## 🛠️ Herramientas
+* **HTML5** (Estructura base)
+* **Git** (Control de versiones)
+* **GitHub** (Repositorio remoto colaborativo)
+* **Visual Studio Code** (Entorno de desarrollo)
