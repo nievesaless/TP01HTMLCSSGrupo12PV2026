@@ -1,0 +1,35 @@
+body {
+  margin: auto 280px auto 280px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.cabecera {
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+}
+
+.titulo {
+  color: #061C30;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+}
+
+.enlaces {
+  display: flex;
+  gap: 80px;
+}
+
+.enlaces a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 15px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.enlaces a:hover {
+  background-color: darkred;
+  color: white;
+  transform: scale(1.05);
+}
