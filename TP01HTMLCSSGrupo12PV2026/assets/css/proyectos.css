@@ -29,7 +29,7 @@ body {
 }
 
 .enlaces a:hover {
-  background-color: darkred;
+  background-color: #0E35BD;
   color: white;
   transform: scale(1.05);
 }
@@ -47,10 +47,54 @@ select {
 }
 
 select:focus {
-  border-color: darkred;
+  border-color: #0E35BD;
 }
 
 option {
   font-family: 'Poppins', sans-serif;
   line-break: anywhere;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding-left: 20px;
+  border-bottom: solid 1px #ccc;
+}
+
+
+.card h3 {
+  color: #0E35BD;
+}
+
+.card img {
+  width: 358.391px;
+  height: 179.188px;
+  border-radius: 15px;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+.descripcion {
+  font-size: 16px;
+  color: #555;
+}
+
+.categoria {
+  font-size: 16px;
+  margin-top: auto;
+  color: #555;
 }
