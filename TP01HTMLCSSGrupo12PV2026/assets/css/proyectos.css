@@ -33,3 +33,24 @@ body {
   color: white;
   transform: scale(1.05);
 }
+
+section label {
+  margin-left: 20px;
+}
+
+select {
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-family: 'Poppins', sans-serif;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+select:focus {
+  border-color: darkred;
+}
+
+option {
+  font-family: 'Poppins', sans-serif;
+  line-break: anywhere;
+}
