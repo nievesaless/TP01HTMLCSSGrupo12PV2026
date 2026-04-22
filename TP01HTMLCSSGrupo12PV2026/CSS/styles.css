@@ -47,3 +47,36 @@ body {
     margin-top: 1.5rem;
     padding: 0;
  }
+
+ nav a {
+    text-decoration: none;
+    color: var(--azul-profundo);
+    font-weight: 700;
+    font-size: 0.9rem;
+    transition: all 0.3 ease;
+ }
+
+ nav a:hover {
+    color: var(--rojo-ladrillo);
+    transform: translateY(-3px);
+ }
+
+ nav a:active {
+    transform: scale(0.95);
+ }
+
+ main{
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+ }
+
+ section {
+    background-color: var(--gris-fondo);
+    color: var(--texto-oscuro);
+    padding: 2.5rem;
+    border-radius: 15px;
+    margin-bottom: 2.5rem;
+    border-left: 12px solid var(--rojo-ladrillo);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+ }
