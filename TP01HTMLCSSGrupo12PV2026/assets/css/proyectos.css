@@ -1,6 +1,7 @@
 body {
-  margin: auto 280px auto 280px;
+  margin: auto 280px 50px 280px;
   font-family: 'Poppins', sans-serif;
+  height: initial;
 }
 
 .cabecera {
@@ -10,19 +11,20 @@ body {
 }
 
 .titulo {
-  color: #061C30;
+  color: #143D50;
   font-family: 'Poppins', sans-serif;
   font-size: 40px;
 }
 
 .enlaces {
+  color: #143D50;
   display: flex;
   gap: 80px;
 }
 
 .enlaces a {
   text-decoration: none;
-  color: black;
+  color: #143D50;
   padding: 10px 15px;
   border-radius: 20px;
   display: inline-block;
@@ -57,21 +59,29 @@ option {
 
 .contenedor {
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(3, 0.5fr);
   gap: 20px;
 }
 
 .card {
   display: flex;
   flex-direction: column;
-  height: 100%;
-  padding-left: 20px;
+  justify-content: center;
+  height: 90%;
   border-bottom: solid 1px #ccc;
+  margin-top: 40px;
+  width: 400px;
 }
 
+.enlace-img {
+  width: 358.391px;
+  height: 179.188px;
+  margin-bottom: 0px;
+}
 
 .card h3 {
-  color: #0E35BD;
+  color: #0E35B3;
+  margin: 10px 0px 0px 0px;
 }
 
 .card img {
@@ -82,19 +92,22 @@ option {
 
 .card a {
   text-decoration: none;
+  color: #143D50;
+  margin-bottom: 20px;
 }
 
 .card a:hover {
   text-decoration: underline;
+  color: #0E35BD;
 }
 
 .descripcion {
   font-size: 16px;
-  color: #555;
+  color: #143D50;
 }
 
 .categoria {
   font-size: 16px;
   margin-top: auto;
-  color: #555;
+  color: #143D50;
 }
