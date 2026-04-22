@@ -1,0 +1,24 @@
+/* Vaibales css*/
+:root {
+    --azul-profundo: #1c2e4a;
+    --rojo-ladrillo: #b03a2e;
+    --gris-fondo: #ebedef;
+    --blanco-crema: #fdfefe;
+    --texto-oscuro: #1c2e4a;
+}
+
+body {
+    display:grid;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+    grid-template-rows: auto 1fr auto;
+    min-height: 0;
+    background-color: var (var(--azul-profundo));
+    color: var (--blanco-crema);
+    font-family: 'Segoe UI', sans-serif;
+}
+ header { grid-area: header;}
+ main { grid-area: main;}
+ footer { grid-area: footer;}
