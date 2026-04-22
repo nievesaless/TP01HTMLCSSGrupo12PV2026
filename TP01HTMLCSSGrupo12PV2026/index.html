@@ -1,14 +1,30 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gestión de Proyectos Educativos - Inicio</title>
+    <style>
+  /* Estilo Interno - Requisito del TP */
+        .lista-novedades li strong { text-decoration: underline; }
+    </style>
+    <link rel="stylesheet" href="assets/css/index.css">
 </head>
 <body>
-    <header>
-        <h1>Portal de Proyectos FI-UNJU</h1>
-        <p>Bienvenido a la Plataforma de Gestión de Proyectos Educativos</p>
+<header>
+        <div class="header-main-content">
+            <img src="images/logo_unju.png" alt="Logo de la FI-UNJU" class="logo_unju">
+
+            <div class="textos-header">
+                <h1>Portal de Proyectos FI-UNJU</h1>
+                <p>Bienvenido a la Plataforma de Gestión de Proyectos Educativos</p>
+            </div>
+
+            <div class="logo-spacer"></div>
+
+        </div>
+
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
@@ -40,16 +56,16 @@
 
         <section>
             <h2>Novedades del Sistema</h2>
-            <ul>
+            <ul class="lista-novedades">
                 <li><strong>Ignacio Cardozo</strong> agregó imágenes a la galería de proyectos.</li>
                 <li><strong>Mauri Salas</strong> publicó los objetivos de la "App Matemática".</li>
-                <li><strong>Camila</strong> actualizó su información y completó el archivo perfil.html.</li>
+                <li><strong>Camila Mansilla</strong> actualizó su información y completó el archivo perfil.html.</li>
                 <li>Se optimizó la estructura de navegación en todos los módulos.</li>
             </ul>
         </section>
     </main>
 
-    <footer>
+    <footer style="letter-spacing: 1px;">
         <p>2026 Grupo 12 - Programación Visual - Facultad de Ingeniería UNJU</p>
     </footer>
 </body>
