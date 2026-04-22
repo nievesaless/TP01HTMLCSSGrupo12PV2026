@@ -15,10 +15,35 @@ body {
     "footer";
     grid-template-rows: auto 1fr auto;
     min-height: 0;
-    background-color: var (var(--azul-profundo));
+    background-color: var(--azul-profundo);
     color: var (--blanco-crema);
     font-family: 'Segoe UI', sans-serif;
 }
  header { grid-area: header;}
  main { grid-area: main;}
  footer { grid-area: footer;}
+ header {
+    background-color: var(--gris-fondo);
+    color: var(--texto-oscuro);
+    padding: 2.5rem 1rem;
+    border-bottom: 6px solid var(--rojo-ladrillo);
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+ }
+ 
+ header h1{
+    margin: 0;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: var(--rojo-ladrillo);
+ }
+
+ nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 2.5;
+    list-style: none;
+    margin-top: 1.5rem;
+    padding: 0;
+ }
