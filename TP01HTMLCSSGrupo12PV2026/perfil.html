@@ -1,38 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Perfil de Usuario - Grupo 12</title>
 </head>
-<body>
-    <header>
-        <h1>Mi Perfil Educativo</h1>
-        <nav>
-            <ul>
-                <li><a href= "index.html"> Volver al Inicio</a></li>
-            </ul>
-        </nav>
-    </header>
-
+    <body>
+        <div class="vista-perfil">
+        <header>
+            <p style="color: #e11d48; font-weight: bold; font-size: 0.8rem;">Perfil de Usuario - Grupo 12</p>
+            <h1>Mi Perfil Educativo</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" style="color: #e11d48;">Volver al Inicio</a></li>
+                </ul>
+            </nav>
+        </header>
     <hr><main>
         <section>
-            <h2>Datos Personales</h2>
-
-            <figure>
-            <img src="avatar1.png"
-            height="200" widht="200">
-            <figcaption><i>Estudiante de la FI-UNJu</i></figcaption>
-            </figure>
-
-            <p><b>Nombre:</b> Camila Noemi Mansilla</p>
-            <p><b>Rol:</b>Alumno</p>
+            <div class="perfil-header">
+                <img src="images/avatar1.png" alt="Foto de Perfil" class="foto-perfil">
+                <h2>Camila Mansilla</h2>
+                <p class="tagline">Estudiante de APU - UNJu</p>
+            </div>
         </section>
-    </main>
-
-    <hr>
+        <section>
+            <h3>Informacion Academica</h3>
+            <ul>
+                <li><b>Carrera:</b> Analista Programador Universitario</li>
+                <li><b>Facultad:</b> Facultad de Ingenieria</li>
+                <li><b>Proyecto Actual:</b> Portal de Gestion Educativa</li>
+            </ul>
+        </section>
+        </main>
+    
     <footer>
-        <p><small>2026 Grupo 12 - Programacion Visual</small></p>
+        <p> 2026 - Portal de Proyectos FI-UNJu</p>
+        <p>Camila Mansilla - Analista Programador Universitario</p>
     </footer>
-</body>
+    </div>
+    </body>
 </html>

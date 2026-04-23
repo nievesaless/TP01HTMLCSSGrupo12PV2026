@@ -1,0 +1,88 @@
+/* Vaibales css*/
+:root {
+    --azul-noche: #0f172a;
+    --rojo-electrico: #e11d48;
+    --gris-oscuro: #1e293b;
+    --texto-brillante: #f8fafc;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.vista-perfil {
+    background-color: var(--azul-noche);
+    min-height: 100vh;
+    width: 100%;
+    color: var(--texto-brillante);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.vista-perfil header {
+    text-align: center;
+    color: var(--texto-brillante);
+    padding: 40px 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--gris-oscuro);
+}
+
+.vista-perfil header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+.vista-perfil nav ul {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.vista-perfil nav a{
+    color: var(--rojo-electrico);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.vista-perfil section {
+    background: linear-gradient(145deg, var(--gris-oscuro), #111827);
+    color: var(--texto-brillante);
+    padding: 2.5rem;
+    border-radius: 20px;
+    margin: 20px auto;
+    max-width: 850px;
+    border-left: 8px solid var(--rojo-electrico);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.vista-perfil section:hover {
+    transform: translateY(-10px) scale(1.01);
+    box-shadow: 0 20px 40px rgba(225, 29, 72, 0.3);
+}
+
+.vista-perfil .foto-perfil {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid var(--rojo-electrico);
+    box-shadow: 0 0 15px rgba(225, 29, 72, 0.5);
+    display: block;
+    margin: 0 auto 15px;
+    object-fit: cover;
+    transition: all 0.3s ease;
+}
+
+.vista-perfil .perfil-header {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.vista-perfil .grupo-label {
+    display: block;
+    color: var(--rojo-electrico);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
